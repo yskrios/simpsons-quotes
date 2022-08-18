@@ -1,0 +1,8 @@
+.section {
+  background-color: #ffdcaa;
+  padding: 0 1rem 1rem 1rem;
+
+  @media screen and (min-width: 764px) {
+    padding: 0 4rem 4rem 4rem;
+  }
+}

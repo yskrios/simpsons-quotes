@@ -1,0 +1,32 @@
+.searchInputContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: 1px solid #000;
+  border-radius: 5px;
+  color: #000;
+  font-size: 1rem;
+}
+
+.icon {
+  width: 24px;
+  color: inherit;
+  position: absolute;
+  right: 20px;
+  top: 5px;
+}
+
+.searchInput {
+  border: none;
+  padding: 10px 0px 10px 20px;
+  margin-right: 50px;
+  font-size: 1rem;
+  color: #000;
+  background-color: transparent;
+  outline: none;
+  width: 100%;
+
+  &::placeholder {
+    color: inherit;
+  }
+}
